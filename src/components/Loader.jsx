@@ -1,7 +1,7 @@
 import { Activity } from "lucide-react";
 import { Loader } from "@/components/animated-icon/loader";
 
-export default function Loader() {
+export default function LoaderPage() {
   return (
     <div className="w-full h-dvh flex flex-col items-center justify-center gap-y-4 fixed bg-[linear-gradient(135deg,#155DFC_0%,#1447E6_50%,#8200DB_100%)]">
       <div className="size-20 rounded-xl shadow-2xl bg-white flex justify-center items-center">
