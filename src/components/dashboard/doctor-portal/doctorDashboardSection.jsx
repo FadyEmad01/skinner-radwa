@@ -1,9 +1,9 @@
-import AdminTabsSection from "./adminTabsSection";
 import { AnalyticsCards } from "./analytics-cards";
+import DoctorTabsSection from "./doctorTabsSection";
 
 
 
-export default function AdminDashboardSection() {
+export default function DoctorDashboardSection() {
   return (
     <section className="w-full py-16">
       <div className="mx-auto grid max-w-4xl gap-10 px-6  items-start grid-cols-1">
@@ -14,7 +14,7 @@ export default function AdminDashboardSection() {
 
         {/* Right */}
         <div className="">
-          <AdminTabsSection />
+          <DoctorTabsSection />
         </div>
       </div>
     </section>

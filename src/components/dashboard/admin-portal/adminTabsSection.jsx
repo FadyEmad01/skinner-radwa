@@ -1,8 +1,8 @@
 import { Clock, TrendingUp, UserCheck, Users } from "lucide-react";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs";
-import { Card } from "../ui/card";
-import { Badge } from "../ui/badge";
-import { Button } from "../ui/button";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../ui/tabs";
+import { Card } from "../../ui/card";
+import { Badge } from "../../ui/badge";
+import { Button } from "../../ui/button";
 import DoctorReviewCard from "./DoctorReviewCard";
 
 export default function AdminTabsSection() {

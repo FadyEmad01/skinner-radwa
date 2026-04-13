@@ -15,8 +15,8 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
-import { Input } from "../ui/input";
+import { Dialog, DialogContent, DialogTrigger } from "../../ui/dialog";
+import { Input } from "../../ui/input";
 import { useFileUpload } from "@/hooks/use-file-upload";
 import DoctorReviewActions from "./DoctorReviewActions";
 

@@ -3,6 +3,7 @@ import { lazy, Suspense } from "react";
 import LoaderPage from "@/components/Loader";
 import ResetPassword from "@/pages/resetPassword";
 import AdminPortal from "@/pages/adminPortal";
+import DoctorPortal from "@/pages/doctorPortal";
 
 const SignIn = lazy(() => import("../pages/sign-in"));
 const Register = lazy(() => import("../pages/register"));
@@ -19,6 +20,7 @@ export default function AppRoutes() {
         <Route path="/verify-code" element={<VerifyCode />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/admin-portal" element={<AdminPortal />} />
+        <Route path="/doctor-portal" element={<DoctorPortal />} />
       </Routes>
     </Suspense>
   );
